@@ -2,43 +2,46 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-green)
-![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red?logo=streamlit)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20Application-red?logo=streamlit)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+---
 
 ## 📖 Overview
 
-SAS Mine Classification System is an artificial intelligence project developed to classify **Side-Scan Sonar (SAS) underwater images** using the YOLOv8 deep learning model.
+**Underwater Object Classification** is an AI-powered computer vision project developed to classify underwater objects from **Side-Scan Sonar (SAS)** imagery using the **YOLOv8** deep learning model.
 
-The system automatically classifies sonar images into the following categories:
+The system classifies sonar images into four categories:
 
 - 💣 Mine
 - 🪨 Rock
-- 🔩 Wreck
+- 🚢 Wreck
 - 🌊 Other
 
-The project includes the complete machine learning workflow, including synthetic dataset generation, dataset preparation, model training, evaluation, and an interactive Streamlit application for prediction.
+The project includes the complete machine learning workflow, from synthetic dataset generation and dataset preparation to model training, evaluation, and prediction through an interactive Streamlit interface.
 
 ---
 
 ## ✨ Features
 
-- Underwater sonar image classification
-- YOLOv8 image classification model
-- Synthetic dataset generation
-- Automated training pipeline
-- Interactive Streamlit web interface
-- Image preprocessing using CLAHE
-- Prediction confidence visualization
+- 🌊 Underwater object classification
+- 📡 Side-Scan Sonar (SAS) image processing
+- 🤖 YOLOv8 image classification model
+- ⚙️ Synthetic dataset generation
+- 📊 Model training and evaluation
+- 🖥️ Interactive Streamlit web application
+- 📈 Prediction confidence visualization
 
 ---
 
-## 🛠️ Technologies
+## 🛠️ Tech Stack
 
 - Python
 - YOLOv8 (Ultralytics)
 - PyTorch
-- Streamlit
 - OpenCV
+- Streamlit
 - NumPy
 - Pillow
 
@@ -47,15 +50,17 @@ The project includes the complete machine learning workflow, including synthetic
 ## 📂 Project Structure
 
 ```text
-sas_project
+underwater-object-classification
 │
-├── app.py                 # Streamlit application
-├── train.py               # Model training
-├── run_pipeline.py        # End-to-end pipeline
-├── prepare_dataset.py     # Dataset preparation
-├── generate_synthetic.py  # Synthetic data generation
-├── requirements.txt
-└── dataset/
+├── README.md
+└── sas_project
+    ├── app.py
+    ├── train.py
+    ├── run_pipeline.py
+    ├── prepare_dataset.py
+    ├── generate_synthetic.py
+    ├── requirements.txt
+    └── ...
 ```
 
 ---
@@ -65,16 +70,16 @@ sas_project
 Clone the repository
 
 ```bash
-git clone https://github.com/fatmanurpolat15/SAS.git
+git clone https://github.com/fatmanurpolat15/underwater-object-classification.git
 ```
 
-Go to the project directory
+Move into the project directory
 
 ```bash
-cd SAS/sas_project
+cd underwater-object-classification/sas_project
 ```
 
-Install dependencies
+Install the required packages
 
 ```bash
 pip install -r requirements.txt
@@ -84,13 +89,13 @@ pip install -r requirements.txt
 
 ## ▶️ Usage
 
-Run the complete pipeline:
+Run the complete pipeline
 
 ```bash
 python run_pipeline.py
 ```
 
-Launch the Streamlit application:
+Launch the Streamlit application
 
 ```bash
 streamlit run app.py
@@ -100,17 +105,17 @@ streamlit run app.py
 
 ## 🎯 Classification Categories
 
-| Class | Description |
-|------|-------------|
+| Category | Description |
+|----------|-------------|
 | 💣 Mine | Underwater mine |
 | 🪨 Rock | Rock formation |
-| 🔩 Wreck | Shipwreck or debris |
+| 🚢 Wreck | Shipwreck / underwater debris |
 | 🌊 Other | Other underwater objects |
 
 ---
 
 ## 👩‍💻 Contributors
 
-Developed as a **team project**.
+This project was developed as a **team project**.
 
 - Fatmanur Polat
