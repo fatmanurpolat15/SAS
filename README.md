@@ -1,4 +1,4 @@
-# 🌊 Underwater Object Classification
+# 🌊 Side-Scan Sonar Object Classification
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-green)
@@ -10,7 +10,7 @@
 
 ## 📖 Overview
 
-**Underwater Object Classification** is an AI-powered computer vision project developed to classify underwater objects from **Side-Scan Sonar (SAS)** imagery using the **YOLOv8** deep learning model.
+**Side-Scan Sonar Object Classification** is an AI-powered computer vision project developed to classify underwater objects from **Side-Scan Sonar (SSS)** imagery using the **YOLOv8** deep learning model.
 
 The system classifies sonar images into four categories:
 
@@ -19,19 +19,19 @@ The system classifies sonar images into four categories:
 - 🚢 Wreck
 - 🌊 Other
 
-The project includes the complete machine learning workflow, from synthetic dataset generation and dataset preparation to model training, evaluation, and prediction through an interactive Streamlit interface.
+The project includes the complete machine learning workflow, including synthetic dataset generation, dataset preparation, model training, model evaluation, and real-time prediction through an interactive Streamlit application.
 
 ---
 
 ## ✨ Features
 
-- 🌊 Underwater object classification
-- 📡 Side-Scan Sonar (SAS) image processing
-- 🤖 YOLOv8 image classification model
+- 🌊 Underwater object classification from Side-Scan Sonar images
+- 🤖 YOLOv8 deep learning classification model
 - ⚙️ Synthetic dataset generation
 - 📊 Model training and evaluation
 - 🖥️ Interactive Streamlit web application
 - 📈 Prediction confidence visualization
+- 🧩 Modular machine learning pipeline
 
 ---
 
@@ -40,8 +40,8 @@ The project includes the complete machine learning workflow, from synthetic data
 - Python
 - YOLOv8 (Ultralytics)
 - PyTorch
-- OpenCV
 - Streamlit
+- OpenCV
 - NumPy
 - Pillow
 
@@ -50,7 +50,7 @@ The project includes the complete machine learning workflow, from synthetic data
 ## 📂 Project Structure
 
 ```text
-underwater-object-classification
+side-scan-sonar-object-classification
 │
 ├── README.md
 └── sas_project
@@ -70,13 +70,13 @@ underwater-object-classification
 Clone the repository
 
 ```bash
-git clone https://github.com/fatmanurpolat15/underwater-object-classification.git
+git clone https://github.com/fatmanurpolat15/side-scan-sonar-object-classification.git
 ```
 
 Move into the project directory
 
 ```bash
-cd underwater-object-classification/sas_project
+cd side-scan-sonar-object-classification/sas_project
 ```
 
 Install the required packages
@@ -114,8 +114,18 @@ streamlit run app.py
 
 ---
 
+## 💡 Project Highlights
+
+- AI-powered sonar image analysis
+- Deep learning with YOLOv8
+- End-to-end machine learning workflow
+- Interactive Streamlit interface
+- Automated dataset preparation and prediction pipeline
+
+---
+
 ## 👩‍💻 Contributors
 
-This project was developed as a **team project**.
+Developed collaboratively as part of a team project.
 
 - Fatmanur Polat
