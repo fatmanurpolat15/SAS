@@ -1,4 +1,4 @@
-# 🌊 Side-Scan Sonar Object Classification
+# 🌊 SAS (Side-Scan Sonar) Object Classification
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-green)
@@ -10,7 +10,7 @@
 
 ## 📖 Overview
 
-**Side-Scan Sonar Object Classification** is an AI-powered computer vision project developed to classify underwater objects from **Side-Scan Sonar (SSS)** imagery using the **YOLOv8** deep learning model.
+**SAS (Side-Scan Sonar) Object Classification** is an AI-powered computer vision project developed to classify underwater objects from **Side-Scan Sonar (SAS)** imagery using the **YOLOv8** deep learning model.
 
 The system classifies sonar images into four categories:
 
@@ -19,7 +19,7 @@ The system classifies sonar images into four categories:
 - 🚢 Wreck
 - 🌊 Other
 
-The project includes the complete machine learning workflow, including synthetic dataset generation, dataset preparation, model training, model evaluation, and real-time prediction through an interactive Streamlit application.
+The project covers the complete machine learning workflow, including synthetic dataset generation, dataset preparation, model training, evaluation, and real-time prediction through an interactive Streamlit application.
 
 ---
 
@@ -50,7 +50,7 @@ The project includes the complete machine learning workflow, including synthetic
 ## 📂 Project Structure
 
 ```text
-side-scan-sonar-object-classification
+SAS
 │
 ├── README.md
 └── sas_project
@@ -67,19 +67,13 @@ side-scan-sonar-object-classification
 
 ## 🚀 Installation
 
-Clone the repository
-
 ```bash
-git clone https://github.com/fatmanurpolat15/side-scan-sonar-object-classification.git
+git clone https://github.com/fatmanurpolat15/SAS.git
 ```
 
-Move into the project directory
-
 ```bash
-cd side-scan-sonar-object-classification/sas_project
+cd SAS/sas_project
 ```
-
-Install the required packages
 
 ```bash
 pip install -r requirements.txt
@@ -89,13 +83,13 @@ pip install -r requirements.txt
 
 ## ▶️ Usage
 
-Run the complete pipeline
+Run the complete pipeline:
 
 ```bash
 python run_pipeline.py
 ```
 
-Launch the Streamlit application
+Launch the Streamlit application:
 
 ```bash
 streamlit run app.py
@@ -111,16 +105,6 @@ streamlit run app.py
 | 🪨 Rock | Rock formation |
 | 🚢 Wreck | Shipwreck / underwater debris |
 | 🌊 Other | Other underwater objects |
-
----
-
-## 💡 Project Highlights
-
-- AI-powered sonar image analysis
-- Deep learning with YOLOv8
-- End-to-end machine learning workflow
-- Interactive Streamlit interface
-- Automated dataset preparation and prediction pipeline
 
 ---
 
