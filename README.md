@@ -1,4 +1,4 @@
-# 🌊 SAS Mine Classification System
+# 🌊 Underwater Object Classification
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-green)
