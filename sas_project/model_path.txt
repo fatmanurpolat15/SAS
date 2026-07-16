@@ -1,0 +1,1 @@
+C:\Users\beyza\Downloads\sas_project\runs_sas\exp_v1\weights\best.pt
